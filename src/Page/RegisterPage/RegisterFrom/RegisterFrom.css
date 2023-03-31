@@ -1,0 +1,45 @@
+.registerfrom-container{
+
+    align-items: center;
+}
+
+.registerFrom{
+   border: 2px solid rgb(182, 180, 180);
+   border-radius: 5px;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 5%;
+  padding: 4%;
+  
+}
+.registerFrom h3{
+    text-align: left;
+    font-weight: 700;
+}
+.registerFrom div{
+margin-top: 20PX;
+}
+
+.registerFrom input{
+  background-color: rgb(255, 252, 252);
+  display: flex;
+  width: 100%;
+  height: 30px;
+  padding-top: 10PX;
+  padding-left: 4PX;
+  padding-bottom: 35PX;
+  border-bottom: 1px solid black;
+}
+.registationbtn {
+    width: 100%;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+}
+.registerFrom p{
+ text-align: center;
+}

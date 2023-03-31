@@ -1,0 +1,63 @@
+
+.eventTask{
+display: grid;
+grid-template-columns:  repeat(2,1fr);
+width: 90%;
+grid-gap: 50px ;
+margin-left: 4%;
+}
+
+.column{
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 5%;
+ 
+}
+.column img{
+    width: 200px;
+    height: 190px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.task{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+.eventTask-details{
+    padding-top: 10px;
+    width: 90%;
+}
+.eventTask-details h4, p{
+   text-align: left;
+
+}
+.eventTask-details  p{
+   font-weight: 500;
+
+}
+.details-side{
+    display: flex;
+    width: 70%;
+   
+}
+.task{
+    box-shadow: 0 0 0 4px rgb(255, 255, 255),
+    0.3em 0.3em 2em rgba(77, 77, 77, 0.3);
+    border-radius: 8px;
+}
+
+.cancelbtn{
+   border-radius: 4px;
+    padding: 4px 15px;
+    justify-content: center;
+    align-items: center;
+   margin-top:145px ; 
+   margin-right:15px ; 
+   color: gray;
+   background-color: #E3E3E3;
+}

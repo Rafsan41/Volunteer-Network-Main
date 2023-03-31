@@ -1,0 +1,48 @@
+
+.header-container{
+    display: flex;
+    margin: 10px ;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    border: 1px solid rgb(250, 248, 248);
+    width: 300px;
+    height: 100px;
+}
+.logo img{
+    border: 1px solid rgb(246, 241, 241);
+    width: 240px;
+    height: 70px;
+}
+.link{
+margin:20px 20px ;
+text-decoration: none;
+font-size:20px;
+font-weight:500;
+color: black;
+}
+
+.home{
+text-decoration: none;
+}
+.adminbtn{
+    background-color:#434141;
+    color: white;
+    font-size:20px;
+    font-weight:500;
+    padding: 10px 15px;
+    border: none;
+    margin-left: 10px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+.registerbtn{
+    background-color:#3F90FC;
+    color: white;
+    font-size:20px;
+    font-weight:500;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+}

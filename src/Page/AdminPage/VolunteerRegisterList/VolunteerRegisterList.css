@@ -1,0 +1,89 @@
+.sidebarandlist{
+    display: flex;
+    width: 100%;
+}
+.sidevar{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.listandTable{
+width: 78%;
+}
+.valunter-register{
+    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+   
+    background-color: #E5E5E5;
+  
+    width: 100%;
+}
+.plus{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    padding: 5px;
+    background-color:#e4e2e2;
+    border-radius: 7px;
+}
+.trash{
+    width: 30px;
+    height: 30px;
+   margin-left: 5px;
+   padding: 5px;
+    background-color:#FF444A;
+    border-radius: 7px;
+}
+.table-container{
+ 
+    padding: 2%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 100%;
+}
+.div{
+    margin: 5px;
+    padding: 10px;
+}
+.divs{
+    padding: 10px;
+}
+.thead{
+font-weight: 700;
+background-color: #F5F6FA;
+border-radius: 20px;
+}
+
+.tooltips  {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tooltips .tooltiptext {
+  visibility: hidden;
+  width: 250%;
+  background-color: rgb(53, 52, 52);
+  color: #ebe5e5;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltips:hover .tooltiptext {
+  visibility: visible;
+}
+.listTitle{
+    text-align: left;
+    margin-left: 8%;
+    padding: 5px;
+}

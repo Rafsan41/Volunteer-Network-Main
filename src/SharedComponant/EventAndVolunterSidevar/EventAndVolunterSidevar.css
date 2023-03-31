@@ -1,0 +1,42 @@
+.side-navigate{
+    width: 200px;
+}
+.sidevar-containerr{
+    display: wrap;
+    
+    width: 150px;
+    
+}
+.sidevarbtn-container{
+    margin-right: 5%;
+    width: 250px;
+    
+}
+.logoWithlink{
+    display: flex;
+   align-items: center;
+    margin-left: 10px;
+    width: 250px;
+    height: 10px;
+}
+.plusLogo{
+    width: 20px;
+    height: 20px;
+}
+.valunterlistswitch{
+    padding-top: 15px;
+    font-size:17px;
+   width: 100%;
+   text-align: left;
+
+}
+.eventlogo{
+    width: 20px;
+    height: 20px;
+}
+.addeventSwitch{
+   padding-top: 15px;
+    font-size:17px;
+   width: 100%;
+   text-align: left;
+}

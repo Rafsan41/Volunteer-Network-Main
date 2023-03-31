@@ -1,0 +1,39 @@
+.LogInFrom{
+    border: 1px solid #ABABAB;
+    width: 50%;
+    height: 80%;
+   margin-left:25% ;
+   margin-right:25% ;
+}
+.LogInFrom h3{
+ margin-top: 100px;
+ margin-bottom: 10px;
+
+}
+
+.googlebtn{
+border: 1px solid rgb(188, 186, 186);
+padding: 5px;
+width: 60%;
+border-radius: 20px;
+margin: 20px;
+
+}
+
+.googlebtn-element{
+    display: flex;
+}
+.gLogo img{
+    width: 31px;
+    height: 31px;
+    border: 1PX solid rgb(242, 240, 240);
+    border-radius: 100PX;
+}
+.CwG{
+ padding-top: 5PX;
+  margin-left: 25%;
+  font-weight:600;
+}
+.LogInFrom h5{
+    margin-bottom: 100px;
+}

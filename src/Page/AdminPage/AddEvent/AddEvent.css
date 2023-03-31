@@ -1,0 +1,68 @@
+.addevent-side{
+    width: 186%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+   
+    background-color: #E5E5E5;
+  
+    
+}
+.eventInput{
+    padding: 20px;
+}
+.addEvent-Tittle{
+    text-align: left;
+    padding-left: 8%;
+}
+.div{
+  
+   background-color: #FFFFFF;
+   border-radius: 12px;
+   height: 250px;
+   
+}
+.div h4{
+    text-align: left;
+    font-size: 17px;
+    
+    
+}
+
+
+.uploadbtn{
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #0084FF;
+    border-radius: 7px;
+    padding:10px ;
+    background-color: #E5F3FF;
+}
+.uploadbtn img{
+    width: 20px;
+    height: 20px;
+    justify-content: baseline;
+     
+}
+.upload-text{
+    font-size: 18px;
+    padding-left: 5px;
+    font-weight: 500;
+    color: #0084FF;
+}
+.event-submitbtn{
+
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #0084FF;
+    justify-content: right;
+    align-items: right;
+    margin-left: 93%;
+    margin-top: 10px;
+}
+.bannerbtn-container{
+    display: flex;
+}

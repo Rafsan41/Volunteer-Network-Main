@@ -1,0 +1,19 @@
+.input{
+    width: 300px;
+    height: 40px;
+    padding: 20px;
+    margin-right: px;
+    font-size: 20px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(225, 220, 220);
+}
+.search{
+ width: 80px;
+ height: 40px;
+ font-size: 20px;
+ border: none;
+ border-radius: 0px 5px 5px 0px;
+ color: azure;
+ background-color: #3F90FC;
+
+}
