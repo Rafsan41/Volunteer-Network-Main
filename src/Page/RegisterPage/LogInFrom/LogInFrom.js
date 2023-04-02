@@ -3,6 +3,7 @@ import './LogInFrom.css'
 import googleLogo from '../../../logos/google-logo.png'
 import Header from '../../../SharedComponant/Header/Header';
 import './LogInFrom.css'
+import { Link } from 'react-router-dom';
 const LogInFrom = () => {
     return (
         <div>
@@ -20,7 +21,7 @@ const LogInFrom = () => {
                             </div>
                         </div>
                     </button>
-                    <h5>Don't have an account? <a href='/register'>Register as Volunteer</a></h5>
+                    <h5>Don't have an account?<Link className='link ' to='/register'>Register as a Volunter</Link></h5>
                 </div>
             </div>
         </div>

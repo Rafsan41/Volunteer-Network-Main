@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 // import VSingelService from '../VSingelService/VSingelService';
 import './VolenterService.css'
-import { Card } from 'react-bootstrap';
+// import { Card } from 'react-bootstrap';
 // import photo1 from '../../../images/childSupport.png';
 // import photo2 from '../../../images/refuseShelter.png';
 // import photo3 from '../../../images/foodCharity.png';
