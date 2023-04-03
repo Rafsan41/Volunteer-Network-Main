@@ -4,6 +4,7 @@ import plus from '../../../logos/plus 1.png';
 import trash from '../../../logos/trash-2 9.png'
 import EventAndVolunterSidevar from '../../../SharedComponant/EventAndVolunterSidevar/EventAndVolunterSidevar';
 import './VolunteerRegisterList.css'
+import { Link } from 'react-router-dom';
 const VolunteerRegisterList = () => {
     const [users, setUsers] = useState([]);
 
@@ -12,6 +13,27 @@ const VolunteerRegisterList = () => {
             .then(res => res.json())
             .then(data => setUsers(data))
     }, [])
+
+    // delete an user
+    const handelDeletevolunteer = id => {
+        const confirmationDelete = window.confirm('Are you sure, you want to delete');
+        if (confirmationDelete) {
+            const url = `http://localhost:5000/register/${id}`
+            fetch(url, {
+                method: 'DELETE'
+            })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.deletedCount > 0) {
+                        alert('deleted Volunteer User successfully');
+                        const remaingUsers = users.filter(user => user._id !== id)
+                        setUsers(remaingUsers);
+                    }
+                })
+        }
+    }
+
+
     return (
         <div >
             <div className='sidebarandlist'>
@@ -63,14 +85,14 @@ const VolunteerRegisterList = () => {
                                             {user.volunteerServiceType}
                                         </div>
                                         <div className="divs">
-                                            <button className='plus  '>
+                                            <Link to={`/admin/updateVolunteer/${user._id}`}>                                            <button className='plus  '>
 
                                                 <div className='tooltips'>
                                                     <div> <img src={plus} alt="+" /></div>
-                                                    <span class="tooltiptext">edit</span>
+                                                    <span class="tooltiptext">Update</span>
                                                 </div>
-                                            </button>
-                                            <button className='trash'>
+                                            </button></Link>
+                                            <button className='trash' onClick={() => handelDeletevolunteer(user._id)}>
                                                 <div className='tooltips'>
                                                     <div><img src={trash} alt="" /></div>
                                                     <span class="tooltiptext">Delete</span>

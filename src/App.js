@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
 import AddEvent from './Page/AdminPage/AddEvent/AddEvent';
 import Admin from './Page/AdminPage/Admin/Admin';
+import UpdateVolunteer from './Page/AdminPage/UpdateVolunteer/UpdateVolunteer';
 
 import Blog from './Page/BlogPage/Blog/Blog';
 import Donation from './Page/DonationPage/Donation/Donation';
@@ -56,6 +57,10 @@ function App() {
     {
       path: '/admin/addEvent',
       element: <AddEvent />
+    },
+    {
+      path: '/admin/updateVolunteer/:id',
+      element: <UpdateVolunteer></UpdateVolunteer>
     },
   ])
 
