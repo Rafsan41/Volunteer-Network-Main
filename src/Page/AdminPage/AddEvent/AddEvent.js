@@ -21,7 +21,7 @@ const AddEvent = () => {
         const eventBannerlink = eventBannerLinkRef.current.value;
 
         const newEvent = { eventTitle, eventDate, eventDescription, eventBannerlink }
-        fetch('http://localhost:5000/addEvent', {
+        fetch('https://volunter-network-server.onrender.com/addEvent', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

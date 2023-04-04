@@ -18,7 +18,7 @@ const RegisterFrom = () => {
         const volunteerServiceType = volunteerServiceTypeRef.current.value;
 
         const newUser = { name, email, date, description, volunteerServiceType }
-        fetch('http://localhost:5000/register', {
+        fetch('https://volunter-network-server.onrender.com/register', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

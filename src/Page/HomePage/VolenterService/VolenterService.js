@@ -27,7 +27,7 @@ const VolenterService = () => {
     const [volenterServices, setVolenterServices] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/home')
+        fetch('https://volunter-network-server.onrender.com/home')
             .then(res => res.json())
             .then(data => setVolenterServices(data))
     }, [])

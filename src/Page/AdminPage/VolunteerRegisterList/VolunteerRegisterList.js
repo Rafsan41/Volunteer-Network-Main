@@ -9,7 +9,7 @@ const VolunteerRegisterList = () => {
     const [users, setUsers] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/register')
+        fetch('https://volunter-network-server.onrender.com/register')
             .then(res => res.json())
             .then(data => setUsers(data))
     }, [])
@@ -18,7 +18,7 @@ const VolunteerRegisterList = () => {
     const handelDeletevolunteer = id => {
         const confirmationDelete = window.confirm('Are you sure, you want to delete');
         if (confirmationDelete) {
-            const url = `http://localhost:5000/register/${id}`
+            const url = `https://volunter-network-server.onrender.com/register/${id}`
             fetch(url, {
                 method: 'DELETE'
             })

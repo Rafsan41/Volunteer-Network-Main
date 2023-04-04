@@ -5,7 +5,7 @@ const UpdateVolunteer = () => {
     const [volunterUser, setVolunteerUser] = useState({});
     const { id } = useParams()
     useEffect(() => {
-        const url = `http://localhost:5000/register/${id}`;
+        const url = `https://volunter-network-server.onrender.com/register/${id}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setVolunteerUser(data))
@@ -13,7 +13,7 @@ const UpdateVolunteer = () => {
 
     const handelVolunterUserUpdate = e => {
         e.preventDefault()
-        const url = `http://localhost:5000/register/${id}`;
+        const url = `https://volunter-network-server.onrender.com/register/${id}`;
         fetch(url, {
             method: 'PUT',
             headers: {
